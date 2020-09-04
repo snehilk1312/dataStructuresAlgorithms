@@ -27,7 +27,7 @@ class Stack:
 
 
 mystack = Stack()
-expression = input("Enter the postfix expression with space as delimiter: ")
+expression = input("Enter the prefix expression with space as delimiter: ")
 expression = expression.split(' ')
 expression = expression[::-1]    # added this to postfix evaluation
 for i in range(len(expression)):
